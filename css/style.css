@@ -1,14 +1,14 @@
 h1 {
     margin: 0%;
     margin-bottom: -300px;
-    font-family: 'Merriweather Sans';
+    font-family: 'Merriweather Sans', Merriweather, serif;
     font-style: normal;
     color: #837E9F;
 }
 p {
     position: absolute;
     margin: 0%;
-    font-family: 'Merriweather Sans';
+    font-family: 'Merriweather Sans', Merriweather, serif;
     font-style: normal;
     font-size: 13px;
     color: #837E9F;
@@ -54,10 +54,10 @@ p {
     top: 40px;
     left: 40px;
     background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     display: inline-block;
 }
-
 /*sobre*/
 .local {
     /*no figma as configurações de cada p são diferentes, aí não sei se é assim que faz*/
@@ -100,13 +100,21 @@ p {
     font-weight: 400;
     line-height: 16px;
 }
-.email {
-    width: 137px;
+.ghpages {
+    width: 138px;
     height: 15px;
     top: 617px;
     left: 124px;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 15px;
+}
+.email {
+    width: 165px;
+    height: 15px;
+    top: 661px;
+    left: 124px;
+    font-weight: 400;
+    line-height: 15px;
 }
 .sobre-box {
     z-index: -1;
@@ -116,7 +124,263 @@ p {
     top: 362px;
     left: 40px;
     background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
 }
-
-/**/
+/*tecnologias*/
+.tech h1 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    top: 770px;
+    left: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.git {
+    z-index: 1;
+    width: 86px;
+    height: 11px;
+    top: 822px;
+    left: 70px;
+    font-weight: 700;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+.gh {
+    z-index: 1;
+    width: 86px;
+    height: 11px;
+    top: 822px;
+    left: 272px;
+    font-weight: 700;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+.html {
+    z-index: 1;
+    width: 86px;
+    height: 11px;
+    top: 861px;
+    left: 171px;
+    font-weight: 700;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+.css {
+    z-index: 1;
+    width: 86px;
+    height: 11px;
+    top: 900px;
+    left: 70px;
+    font-weight: 700;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+.cplus {
+    z-index: 1;
+    width: 86px;
+    height: 11px;
+    top: 900px;
+    left: 272px;
+    font-weight: 700;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+.git-box {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 70px;
+    top: 816px;
+    background: #CB92B1;
+    border-radius: 30px;
+}
+.gh-box {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 272px;
+    top: 816px;
+    background: #CB92B1;
+    border-radius: 30px;   
+}
+.html-box {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 171px;
+    top: 855px;
+    background: #CB92B1;
+    border-radius: 30px;
+}
+.css-box {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 70px;
+    top: 894px;
+    background: #CB92B1;
+    border-radius: 30px;
+}
+.cplus-box {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 272px;
+    top: 894px;
+    background: #CB92B1;
+    border-radius: 30px;
+}
+.tech-box {
+    z-index: -1;
+    position: absolute;
+    width: 348px;
+    height: 208px;
+    top: 740px;
+    left: 40px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+/*experiências*/
+.experience h1 {
+    position: absolute;
+    width: 141px;
+    height: 26px;
+    top: 1008px;
+    left: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.experience-box {
+    z-index: -1;
+    position: absolute;
+    width: 348px;
+    height: 349px;
+    top: 978px;
+    left: 40px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+/*educação*/
+.education h1 {
+    position: absolute;
+    width: 141px;
+    height: 26px;
+    top: 1387px;
+    left: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.education-box {
+    z-index: -1;
+    position: absolute;
+    width: 348px;
+    height: 352px;
+    top: 1357px;
+    left: 40px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+/*my projects*/
+.my-projects h1 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    top: 70px;
+    left: 478px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.my-projects-box {
+    z-index: -1;
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    top: 40px;
+    left: 448px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+/*bglh-git1*/
+.bglh-git1-box {
+    z-index: -1;
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    top: 157px;
+    left: 448px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+/*bglh-git2*/
+.bglh-git2-box {
+    z-index: -1;
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    top: 157px;
+    left: 939px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+/*recent posts*/
+.rposts h1 {
+    position: absolute;
+    width: 140px;
+    height: 26px;
+    top: 403px;
+    left: 478px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.rposts-box {
+    z-index: -1;
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    top: 373px;
+    left: 448px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+/*bglh-git3*/
+.bglh-git3-image {
+    box-sizing: border-box;
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 520px;
+    left: 478px;
+    background: url(image.png);
+    border: 2px solid #00FF00;
+    border-radius: 90px;
+}
+.bglh-git3-box {
+    z-index: -1;
+    position: absolute;
+    width: 952px;
+    height: 201px;
+    top: 489px;
+    left: 448px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
