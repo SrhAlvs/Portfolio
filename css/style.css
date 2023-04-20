@@ -76,6 +76,13 @@ a {
     left: 124px;
     font-weight: 400;
     line-height: 16px;
+    position: absolute;
+    margin: 0%;
+    font-family: 'Merriweather Sans', Merriweather, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color: #837E9F;
+    text-decoration: none;
 }
 .ifg {
     width: 135px;
