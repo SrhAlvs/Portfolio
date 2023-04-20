@@ -1,17 +1,26 @@
 h1 {
     margin: 0%;
     margin-bottom: -300px;
-    font-family: 'Merriweather Sans', Merriweather, serif;
+    font-family: "Merriweather Sans", Merriweather, sans-serif;
     font-style: normal;
     color: #837E9F;
 }
 p {
     position: absolute;
     margin: 0%;
-    font-family: 'Merriweather Sans', Merriweather, serif;
+    font-family: "Merriweather Sans", Merriweather, sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #837E9F;
+}
+a {
+    position: absolute;
+    margin: 0%;
+    font-family: 'Merriweather Sans', Merriweather, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color: #837E9F;
+    text-decoration: none;
 }
 /*perfil*/
 .perfil {
@@ -78,7 +87,7 @@ p {
 }
 .github {
     width: 75px;
-    height: 16px;
+    height: 156x;
     top: 484px;
     left: 124px;
     font-weight: 400;
@@ -383,4 +392,8 @@ p {
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+}
+/*body*/
+body {
+    background-color: #22212C;
 }
