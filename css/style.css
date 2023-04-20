@@ -1,14 +1,14 @@
 h1 {
     margin: 0%;
     margin-bottom: -300px;
-    font-family: "Merriweather Sans", Merriweather, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-style: normal;
     color: #837E9F;
 }
 p {
     position: absolute;
     margin: 0%;
-    font-family: "Merriweather Sans", Merriweather, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #837E9F;
@@ -16,7 +16,7 @@ p {
 a {
     position: absolute;
     margin: 0%;
-    font-family: 'Merriweather Sans', Merriweather, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #837E9F;
@@ -84,13 +84,27 @@ a {
     color: #837E9F;
     text-decoration: none;
 }
+.local-img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 392px;       
+}
 .ifg {
-    width: 135px;
+    width: 157px;
     height: 15px;
     top: 440px;
     left: 124px;
     font-weight: 400;
     line-height: 15px;
+}
+.ifg-img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 436px;
 }
 .github {
     width: 75px;
@@ -100,6 +114,13 @@ a {
     font-weight: 400;
     line-height: 16px;
 }
+.github-img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 480px;
+}
 .linkedin {
     width: 108px;
     height: 16px;
@@ -107,6 +128,13 @@ a {
     left: 124px;
     font-weight: 400;
     line-height: 16px;
+}
+.linkedin-img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 524px;    
 }
 .instagram {
     width: 74px;
@@ -116,6 +144,13 @@ a {
     font-weight: 400;
     line-height: 16px;
 }
+.instagram-img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 568px;
+}
 .ghpages {
     width: 138px;
     height: 15px;
@@ -124,6 +159,13 @@ a {
     font-weight: 400;
     line-height: 15px;
 }
+.ghpages-img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 612px;
+}
 .email {
     width: 165px;
     height: 15px;
@@ -131,6 +173,13 @@ a {
     left: 124px;
     font-weight: 400;
     line-height: 15px;
+}
+.email-img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 656px;
 }
 .sobre-box {
     z-index: -1;
@@ -399,6 +448,16 @@ a {
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+}
+/*with-love*/
+.with-love {
+    width: 206px;
+    height: 19px;
+    left: 617px;
+    top: 1728px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
 /*body*/
 body {
