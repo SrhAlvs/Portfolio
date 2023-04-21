@@ -10,7 +10,6 @@ p {
     margin: 0%;
     font-family: 'Merriweather Sans', sans-serif;
     font-style: normal;
-    font-size: 13px;
     color: #837E9F;
 }
 a {
@@ -18,7 +17,6 @@ a {
     margin: 0%;
     font-family: 'Merriweather Sans', sans-serif;
     font-style: normal;
-    font-size: 13px;
     color: #837E9F;
     text-decoration: none;
 }
@@ -41,6 +39,7 @@ a {
     height: 17px;
     top: 266px;
     left: 150px;
+    font-size: 13px;
     font-weight: 300;
     line-height: 16px;
 }
@@ -69,20 +68,13 @@ a {
 }
 /*sobre*/
 .local {
-    /*no figma as configurações de cada p são diferentes, aí não sei se é assim que faz*/
     width: 35px;
     height: 16px;
     top: 396px;
     left: 124px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 16px;
-    position: absolute;
-    margin: 0%;
-    font-family: 'Merriweather Sans', Merriweather, sans-serif;
-    font-style: normal;
-    font-size: 13px;
-    color: #837E9F;
-    text-decoration: none;
 }
 .local-img {
     position: absolute;
@@ -96,6 +88,7 @@ a {
     height: 15px;
     top: 440px;
     left: 124px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 15px;
 }
@@ -111,6 +104,7 @@ a {
     height: 156x;
     top: 484px;
     left: 124px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 16px;
 }
@@ -126,6 +120,7 @@ a {
     height: 16px;
     top: 528px;
     left: 124px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 16px;
 }
@@ -141,6 +136,7 @@ a {
     height: 16px;
     top: 572px;
     left: 124px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 16px;
 }
@@ -156,6 +152,7 @@ a {
     height: 15px;
     top: 617px;
     left: 124px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 15px;
 }
@@ -171,6 +168,7 @@ a {
     height: 15px;
     top: 661px;
     left: 124px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 15px;
 }
@@ -209,6 +207,7 @@ a {
     height: 11px;
     top: 822px;
     left: 70px;
+    font-size: 10px;
     font-weight: 700;
     line-height: 13px;
     text-align: center;
@@ -220,6 +219,7 @@ a {
     height: 11px;
     top: 822px;
     left: 272px;
+    font-size: 10px;
     font-weight: 700;
     line-height: 13px;
     text-align: center;
@@ -231,6 +231,7 @@ a {
     height: 11px;
     top: 861px;
     left: 171px;
+    font-size: 10px;
     font-weight: 700;
     line-height: 13px;
     text-align: center;
@@ -242,6 +243,7 @@ a {
     height: 11px;
     top: 900px;
     left: 70px;
+    font-size: 10px;
     font-weight: 700;
     line-height: 13px;
     text-align: center;
@@ -253,6 +255,7 @@ a {
     height: 11px;
     top: 900px;
     left: 272px;
+    font-size: 10px;
     font-weight: 700;
     line-height: 13px;
     text-align: center;
@@ -380,8 +383,65 @@ a {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
 }
-/*bglh-git1*/
-.bglh-git1-box {
+/*git1*/
+.git1-h2 {
+    width: 79px;
+    height: 17px;
+    top: 188px;
+    left: 514px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.git1-description {
+    width: 421px;
+    height: 19px;
+    top: 227px;
+    left: 478px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.git1-num1 {
+    width: 28px;
+    height: 16px;
+    top: 295px;
+    left: 506px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.git1-num2 {
+    width: 28px;
+    height: 16px;
+    top: 295px;
+    left: 578px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.git1-folder-img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 478px;
+    top: 187px;
+}
+.git1-star-img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 478px;
+    top: 293px;
+}
+.git1-gb-img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 293px;
+    left: 550px;
+}
+.git1-box {
     z-index: -1;
     position: absolute;
     width: 461px;
@@ -392,8 +452,65 @@ a {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
 }
-/*bglh-git2*/
-.bglh-git2-box {
+/*git2*/
+.git2-h2 {
+    width: 79px;
+    height: 17px;
+    top: 188px;
+    left: 1005px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.git2-description {
+    width: 421px;
+    height: 19px;
+    top: 227px;
+    left: 969px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.git2-num1 {
+    width: 28px;
+    height: 16px;
+    top: 295px;
+    left: 997px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.git2-num2 {
+    width: 28px;
+    height: 16px;
+    top: 295px;
+    left: 1069px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.git2-folder-img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 969px;
+    top: 187px;
+}
+.git2-star-img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 969px;
+    top: 293px;
+}
+.git2-gb-img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 293px;
+    left: 1041px;
+}
+.git2-box {
     z-index: -1;
     position: absolute;
     width: 461px;
@@ -426,8 +543,44 @@ a {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
 }
-/*bglh-git3*/
-.bglh-git3-image {
+/*git3*/
+.git3-h2 {
+    width: 612px;
+    height: 31px;
+    top: 519px;
+    left: 626px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+.git3-time {
+    width: 180px;
+    height: 18px;
+    top: 550px;
+    left: 626px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.git3-description {
+    width: 700px;
+    height: 20px;
+    top: 596px;
+    left: 626px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.git3-labels {
+    width: 110px;
+    height: 21px;
+    top: 645px;
+    left: 626px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.git3-image {
     box-sizing: border-box;
     position: absolute;
     width: 128px;
@@ -438,7 +591,7 @@ a {
     border: 2px solid #00FF00;
     border-radius: 90px;
 }
-.bglh-git3-box {
+.git3-box {
     z-index: -1;
     position: absolute;
     width: 952px;
@@ -455,8 +608,8 @@ a {
     height: 19px;
     left: 617px;
     top: 1728px;
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
     line-height: 20px;
 }
 /*body*/
