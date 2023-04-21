@@ -335,6 +335,28 @@ a {
     font-weight: 700;
     line-height: 25px;
 }
+.exp-list {
+    position: absolute;
+    width: 175px;
+    height: 243px;
+    left: 80px;
+    top: 1054px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    letter-spacing: 0em;
+    color: #837E9F;
+    text-align: left;
+}
+.exp-list dt {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.exp-list dd {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+}
 .experience-box {
     z-index: -1;
     position: absolute;
@@ -356,6 +378,28 @@ a {
     font-size: 20px;
     font-weight: 700;
     line-height: 25px;
+}
+.edu-list {
+    position: absolute;
+    width: 250px;
+    height: 246px;
+    left: 80px;
+    top: 1433px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    letter-spacing: 0em;
+    color: #837E9F;
+    text-align: left;
+}
+.edu-list dt {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.edu-list dd {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
 }
 .education-box {
     z-index: -1;
@@ -448,8 +492,9 @@ a {
     top: 293px;
     left: 550px;
 }
-.git1-box {
+.git1-link {
     z-index: -1;
+    margin: 0px;
     position: absolute;
     width: 461px;
     height: 186px;
@@ -517,8 +562,9 @@ a {
     top: 293px;
     left: 1041px;
 }
-.git2-box {
+.git2-link {
     z-index: -1;
+    margin: 0px;
     position: absolute;
     width: 461px;
     height: 186px;
@@ -605,8 +651,9 @@ a {
     border: 2px solid #00FF00;
     border-radius: 90px;
 }
-.git3-box {
+.git3-link {
     z-index: -1;
+    margin: 0px;
     position: absolute;
     width: 952px;
     height: 201px;
