@@ -50,7 +50,7 @@ a {
     height: 128px;
     top: 72px;
     left: 150px;
-    background: url(image.png);
+    background: url(./imgs/perfil.png);
     border: 2px solid #00FF00;
     border-radius: 90px;
 }
@@ -587,7 +587,7 @@ a {
     height: 128px;
     top: 520px;
     left: 478px;
-    background: url(image.png);
+    background: url(./imgs/perfil.png);
     border: 2px solid #00FF00;
     border-radius: 90px;
 }
